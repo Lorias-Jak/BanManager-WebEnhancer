@@ -54,7 +54,7 @@ configurations {
 
 dependencies {
     compileOnly("org.spongepowered:spongeapi:11.0.0")
-    compileOnly("me.confuser.banmanager:BanManagerSponge:7.10.0-SNAPSHOT")
+    compileOnly("me.confuser.banmanager:BanManagerSponge:7.10.0")
 
     api(project(":BanManagerWebEnhancerCommon")) {
         isTransitive = true

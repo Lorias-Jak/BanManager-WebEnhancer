@@ -76,7 +76,7 @@ dependencies {
     }
 
     // BanManager Fabric (compileOnly - provided at runtime)
-    modCompileOnly("me.confuser.banmanager:BanManagerFabric-mc$minecraftVersion:7.10.0-SNAPSHOT")
+    modCompileOnly("me.confuser.banmanager:BanManagerFabric-mc$minecraftVersion:7.10.0")
 }
 
 tasks.named<Copy>("processResources") {
